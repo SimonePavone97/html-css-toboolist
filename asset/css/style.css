@@ -10,3 +10,27 @@ h1{
 #logo{
     vertical-align: middle;
 }
+
+
+.center{
+    background-color: white;
+    margin-top: 35px;
+}
+
+.bdr{
+    border: 1px solid black ;
+    border-radius: 20%;
+    background-color: #47ADF1;
+    padding: 7px; 
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.bd{
+    border: 1px solid black ;
+    border-radius: 20%;
+    background-color: white;
+    padding: 7px; 
+    color: grey;  
+    font-family: 'Lato', sans-serif;
+}
