@@ -1,20 +1,41 @@
 *{
     margin: 0;  
     padding: 0;
+    box-sizing: border-box;
 }
 
-h1{
+body{
+    background-color: lightgray;
+}
+
+header{
+    background-color: white;
+}
+
+.intestazione{
+    font-size: 3rem;
     display: inline-block;
+    color: black;
+    
 }
 
 #logo{
+    height: 80px;
+    line-height: 80px;
     vertical-align: middle;
+}
+
+main{
+    margin: 0 auto;
+    width: 80%;
 }
 
 
 .center{
     background-color: white;
     margin-top: 35px;
+    padding: 15px; 
+    
 }
 
 .bdr{
@@ -33,4 +54,10 @@ h1{
     padding: 7px; 
     color: grey;  
     font-family: 'Lato', sans-serif;
+}
+
+.TitGrande{
+    font: black;
+    font-size: 2rem;
+    margin-top: 20px;
 }
