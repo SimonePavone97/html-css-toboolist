@@ -4,43 +4,48 @@
     box-sizing: border-box;
 }
 
+header{
+    height: 100px;
+    padding: 20px 10px;
+    background-color: white;
+}
+
 body{
     background-color: lightgray;
 }
 
-header{
-    background-color: white;
-}
-
-.intestazione{
-    font-size: 3rem;
-    display: inline-block;
-    color: black;
-    
+h1{
+    display: inline;
+    vertical-align: middle;
 }
 
 #logo{
-    height: 80px;
-    line-height: 80px;
+    height: 100%;
     vertical-align: middle;
 }
 
 main{
-    margin: 0 auto;
-    width: 80%;
+    margin: 20px;
+    border-radius: 1%;
 }
-
 
 .center{
     background-color: white;
-    margin-top: 35px;
-    padding: 15px; 
-    
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.top{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 20px 0px;
 }
 
 .bdr{
     border: 1px solid black ;
-    border-radius: 20%;
+    border-radius: 10px;
     background-color: #47ADF1;
     padding: 7px; 
     color: white;
@@ -49,15 +54,35 @@ main{
 
 .bd{
     border: 1px solid black ;
-    border-radius: 20%;
+    border-radius: 10px;
     background-color: white;
-    padding: 7px; 
+    padding: 5px; 
     color: grey;  
-    font-family: 'Lato', sans-serif;
+    margin-right: 10px;
 }
 
-.TitGrande{
-    font: black;
-    font-size: 2rem;
-    margin-top: 20px;
+.check::before{
+    content:"\2713";
+    color: green;
+    border-radius: 50%;
+    border-color: green;
+    border: 1px solid;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.wrong::before{
+    content: "\0078";
+    color: red;
+    border-radius: 50%;
+    border-color: red;
+    border: 1px solid;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    display: inline-block;
+    text-align: center;
 }
