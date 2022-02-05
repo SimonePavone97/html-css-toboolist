@@ -26,14 +26,16 @@ h1{
 
 main{
     margin: 20px;
+    margin-top: 10px;
     border-radius: 1%;
 }
 
 .center{
+    margin-top: 2px;
     background-color: white;
-    margin: 0 auto;
-    border-radius: 5px;
-    width: 70%;
+    padding: 45px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .top{
@@ -44,7 +46,7 @@ main{
 }
 
 .bdr{
-    border: 1px solid black ;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: #47ADF1;
     padding: 7px; 
@@ -53,12 +55,13 @@ main{
 }
 
 .bd{
-    border: 1px solid black ;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: white;
     padding: 5px; 
     color: grey;  
     margin-right: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 .check::before{
@@ -85,4 +88,34 @@ main{
     width: 20px;
     display: inline-block;
     text-align: center;
+}
+
+.etichetta{
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.et-blue{
+    background-color: #47ADF1;
+}
+
+.et-viola{
+    background-color: violet;
+}
+
+.et-verde{
+    background-color: green;
+}
+
+.et-arancione{
+    background-color: orange;
+}
+
+.et-fucsia{
+    background-color: fuchsia;
+}
+
+.et-chiaro{
+    background-color: yellowgreen;
 }
